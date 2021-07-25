@@ -1,0 +1,27 @@
+[{
+    "_id": 0,
+    "user_data": {
+        "username": "yaswanth",
+        "emailid": "chirumamillayaswanth01@gmail.com",
+        "phn_number": "6303896922",
+        "address": "ghiuht gjetbjh thjoseoies gjrbgbebhioet",
+        "pincode": "522617",
+        "create_password": "Yas31102",
+        "confirm_password": "Yas@3112"
+    },
+    "date": "14/5/2021",
+    "time": "23:47:53"
+}, {
+    "_id": 1,
+    "user_data": {
+        "username": "prem sai vittal",
+        "emailid": "premsai2030rt@gmail.com",
+        "phn_number": "7893601589",
+        "address": "plot no 61 jdkfbjsrf",
+        "pincode": "500035",
+        "create_password": "Premsai2030",
+        "confirm_password": "Premsai2030"
+    },
+    "date": "16/5/2021",
+    "time": "15:35:25"
+}]
