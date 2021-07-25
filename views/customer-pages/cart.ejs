@@ -1,0 +1,23 @@
+<%- include('../Boxes/header') ;%>
+<br><br>
+
+<div class="container">
+  
+   <div class="table-responsive">
+      <table class="table table-bordered" id="cart-data">
+      </table>
+   </div>
+   <form action="place_order" method="POST">
+   <input type="text" id="order-details" name="order_data" value = "" hidden>
+   <center><button type="submit" class="btn btn-success" id="place_order">Place Order</button></center>
+</form>
+  
+  <div id="empty_cart_image">
+   <center> <img src="empty-cart.png" alt="" style="width:200px;"></center>
+   <center><p style="color:grey;font-size:25px;"> Cart is Empty !</p></center>
+  </div>
+</div>
+<script type="text/javascript" src="cart-data.js"></script>
+</body>
+
+</html>
