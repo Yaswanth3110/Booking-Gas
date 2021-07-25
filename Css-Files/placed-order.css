@@ -1,0 +1,56 @@
+/* body{
+    background-color: rgb(255, 100, 100);
+} */
+#circle
+		{
+			border:5px solid green;
+			padding:auto;
+			text-align: center;
+			width:100px;
+			height:100px;
+			border-radius:50%;
+			position:absolute;
+			top:50%;
+			left:50%;
+			transform:translate(-50%,-50%);
+			animation-name: circle;
+			animation-duration:3s;
+			animation-timing-function: linear;
+			animation-iteration-count: 4;
+		}
+		#inside
+		{
+			font-size:50px;
+			color:green;
+			position:absolute;
+			top:50%;
+			left:50%;
+			transform:translate(-50%,-50%);
+			animation-name: tick;
+			animation-duration:3s;
+			animation-timing-function: ease-in;
+			animation-iteration-count: 4;
+		}
+		@keyframes circle
+		{
+0% { border:white; }
+20%{border-top:2px solid green;}
+  40% { border-top:2px solid green;border-left:2px solid green;  }
+   60% { border-top:2px solid green;border-left:2px solid green;border-bottom:2px solid green;  }
+   80% { border-top:2px solid green;border-left:2px solid green;border-bottom:2px solid green;border-right:2px solid green;  }
+   100%{border:2px solid green;}
+
+		}
+		@keyframes tick
+		{
+			0%
+			{
+				font-size:0px;
+			}
+			100%
+			{
+				font-size:50px;
+			}
+		}
+
+		
