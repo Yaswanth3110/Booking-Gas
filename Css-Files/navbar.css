@@ -1,0 +1,58 @@
+nav
+    {
+      background-color:#f1f1f1;
+      padding:10px;
+      display:flex;
+    }
+    #name
+    {
+    flex:30%;
+    font-size:25px; 
+    }
+    #details
+    {
+      
+      flex:50%;
+      font-size:15px;
+      display:flex;
+      justify-content: space-evenly;
+      margin:10px 10px;
+    }
+    
+    .details
+    {
+      display:none;
+    }
+    table
+    {
+      border-bottom:1px solid grey;
+    }
+    tr
+    {
+      text-align:center;
+      padding:0px 20px;
+    }
+    th a
+    {
+      color:grey;
+        text-decoration:none;
+    }
+    #details div a
+    {
+      color:black;
+      text-decoration: none;
+    }
+    @media (max-width:800px)
+    {
+      #details
+      {
+        display:none;
+      }
+      #extra
+      {display:none;}
+      .details
+      {
+        display:block;
+        
+      }
+    }
