@@ -1,0 +1,57 @@
+<%- include('../Boxes/header') %>
+
+<style type="text/css" media="screen">
+    td
+    {
+        text-align: center;
+    }
+</style>
+<div class="container">
+    <div style="margin-top:20px;">
+        <center>
+        <h1>Order Details</h1>
+        </center>
+    </div>
+    <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-10">
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                    <tbody>
+                        <tr>
+                            <td>Name</td>
+                            <td><%= data["username"]%></td>
+                        </tr>
+                        <tr>
+                            <td>Status</td>
+                            <td><%= data["status"]%></td>
+                        </tr>
+                        <tr>
+                            <td>Address</td>
+                            <td><%= data["address"]%></td>
+                        </tr>
+                        <tr>
+                            <td>Ordered Date</td>
+                            <td><%= data["ordered_date"]%></td>
+                        </tr>
+                        <tr>
+                            <td>Ordered Time</td>
+                            <td><%= data["ordered_time"]%></td>
+                        </tr>
+                        <tr>
+                            <td>Delivered Date</td>
+                            <td><%= data["delivered_date"]%></td>
+                        </tr>
+                        <tr>
+                            <td>Delivered Time</td>
+                            <td><%= data["delivered_time"]%></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="col-sm-1"></div>
+    </div>
+</div>
+</body>
+</html>
